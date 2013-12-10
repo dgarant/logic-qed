@@ -1,4 +1,12 @@
-logic-qed
+CS513 Project: Dan Garant
 =========
+**Identification of Quasi-Experimental Designs Using First-Order Modeling**
 
-CS513 project -- finding quasi experimental designs from relational schemas
+To install, first clone or download the repository, then:
+
+    easy_install pip
+    pip install -r requirements.txt
+  
+To run:
+
+    python convert_schema.py --rules movielens-rules.txt
